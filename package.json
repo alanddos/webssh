@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
   "start": "node server.js",
-  "build": "webpack" // This command will automatically run on deployment
+  "build": "webpack"
 },
   "private": true,
   "dependencies": {
