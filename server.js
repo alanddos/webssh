@@ -1,6 +1,6 @@
 
-var LOCAL_PORT = 5600;
-var SOKET_IO_PORT = 8000;
+var LOCAL_PORT = process.env.PORT;
+var SOKET_IO_PORT = process.env.PORT;
 var ioClients = [];
 
 var io = require('socket.io').listen(SOKET_IO_PORT);
