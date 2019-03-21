@@ -2,9 +2,9 @@
   "name": "face-api",
   "version": "0.0.0",
   "scripts": {
-    "start": "node serve.js",
-    "build": "node serve.js"
-  },
+  "start": "node serve.js",
+  "build": "webpack" // This command will automatically run on deployment
+},
   "private": true,
   "dependencies": {
    "web-terminal":"0.7.0"
